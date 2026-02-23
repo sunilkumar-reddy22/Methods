@@ -6,6 +6,9 @@ public class Greeting {
     }
     static void greetings() {
         System.out.println("Functions and Methods");
+        for(int i = 1; i <=  10; i++) {
+            System.out.println(i);
+        }
 
     }
 }
