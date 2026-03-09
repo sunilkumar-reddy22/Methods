@@ -4,9 +4,10 @@ public class StringExample2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter name: ");    ;
-        String name = in.next();
-       String ans =  greet(name);
+        String user = in.next();
+       String ans =  greet(user);
         System.out.println(ans);
+        System.out.println("Task completed!");
     }
     static String greet (String name) {
     String names = "Hello " + name;
