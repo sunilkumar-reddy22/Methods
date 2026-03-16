@@ -5,7 +5,10 @@ public class Amstrongnumber {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter number: ");
         int num = in.nextInt();
-        System.out.println(isamstrong(num));
+        System.out.println( isamstrong(num));
+     //   int result = num;
+     //   System.out.println(result);
+     //   int result = num;
     }
     static boolean isamstrong(int a) {
         int original = a;
