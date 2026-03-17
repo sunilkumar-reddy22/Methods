@@ -3,7 +3,7 @@ package com.sunil.methods;
 public class Amstrongnum {
     public static void main(String[] args) {
         System.out.println("Enter number: ");
-        for(int i = 100; i < 100; i++) {
+        for(int i = 100; i < 1000; i++) {
             if (isamstrong(i)) {
                 System.out.println(i + " ");
             }
