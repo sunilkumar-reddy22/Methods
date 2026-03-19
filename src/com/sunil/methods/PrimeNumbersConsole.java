@@ -8,7 +8,6 @@ public class PrimeNumbersConsole {
         System.out.println("Enter end: ");
         int b = in.nextInt();
         isprimeBetween(a, b);
-
     }
 
     static void isprimeBetween(int start, int end) {
