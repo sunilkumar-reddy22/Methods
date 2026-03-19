@@ -9,8 +9,15 @@ public class Pythagorean {
         int b = in.nextInt();
         System.out.println("Enter Third Number: ");
         int c = in.nextInt();
-       boolean result =  isTriplet(a, b, c);
-        System.out.println(result);
+      // boolean result =  isTriplet(a, b, c);
+      //  System.out.println(result);
+      if(isTriplet(a,b,c)) {
+          System.out.println("It is Triplet");
+      }
+      else {
+          System.out.println("is not Triplet");
+      }
+
   }
   static boolean isTriplet(int a,int b, int c) {
        int max = Math.max(a, Math.max(b,c));
