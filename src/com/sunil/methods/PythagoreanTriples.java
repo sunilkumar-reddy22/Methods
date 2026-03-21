@@ -19,7 +19,7 @@ public class PythagoreanTriples {
         if (c > max) {
             max = c;
         }
-       int y;
+       int y = 0;
        if(max == a) {
            y = b * b + c * c;
        }
