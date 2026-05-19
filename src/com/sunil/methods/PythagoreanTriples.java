@@ -23,7 +23,7 @@ public class PythagoreanTriples {
        if(max == a) {
            y = b * b + c * c;
        }
-       else if( max == b) {
+       else if ( max == b) {
            y = a * a + c * c;
        }
        else {

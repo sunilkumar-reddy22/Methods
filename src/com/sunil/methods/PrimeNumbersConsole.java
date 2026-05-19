@@ -20,7 +20,7 @@ public class PrimeNumbersConsole {
     }
 
     static boolean isprime(int num) {
-        if (num <= 1) {
+        if (num <= 1) { //optimised method.
             return false;
         }
         for (int i = 2;  i * i <= num; i++) {
