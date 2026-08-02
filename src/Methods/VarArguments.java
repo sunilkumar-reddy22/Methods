@@ -7,6 +7,7 @@ public class VarArguments {
         multiple(4,5,78463989);
     }
     static void multiple(int a, int b ,int ...v){
-        System.out.println(Arrays.toString(a,b,v));
+       // System.out.println(a  b  v);
+        System.out.println(a + ", " + b + ", " + Arrays.toString(v));
     }
 }
